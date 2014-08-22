@@ -1,7 +1,7 @@
-##GettingCleaningDataProject
+##Getting and Cleaning Data Project
 ##==========================
 
-###Project for Getting and Cleaning Data (Coursera)
+###Smartphone Project
 
 The Smartlab - Non Linear Complex Systems Laboratory at the Universit degli
 Studi di Genova performed an experiment titled "Human Activity Recognition
@@ -41,6 +41,7 @@ directory (i.e. the same level where, say, activity_labels.txt is located).
 To execute the script in R, type:
 
 setwd('name_of_directory_where_script_is_located')
+
 source('run_analysis.R')
 
 
