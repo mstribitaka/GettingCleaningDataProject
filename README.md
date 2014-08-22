@@ -52,10 +52,13 @@ In particular, run_analysis.R performs the following operations:
 3.  Changes the activity labels from numbers to more descriptive terms.
     This step uses the file 'activity_labels.txt' to do the mapping.
 4.  Renames the generic column names in the merged dataframe to more 
-    descriptive variable names.  Here I chose *not* to change the 
+    descriptive variable names.  Here I chose *not* to drastically change the 
     variable names as given in the original tables because, in my opinion, 
     they are descriptive enough.  It was more important to change column 
-    names from, say, "V1" to "tBodyAcc-mean()-X".
+    names from, say, "V1" to "tBodyAccmeanX".  However, I did remove
+    extraneous characters such as - and () from the variable names (via 
+    the gsub command) to make it slightly more readable, and to assist in 
+    creating Codebook.md via a lookup table.
 5.  Removes columns that do *not* have the terms "mean", "Mean", "std", or
     "STD" in the column name.
 6.  Reshapes resulting dataframe such that for each combination of 
