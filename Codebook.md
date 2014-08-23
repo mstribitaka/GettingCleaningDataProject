@@ -155,7 +155,7 @@ information on that script.
 | fBodyBodyGyroJerkMagmeanFreq		| 81	| The mean frequency of the frequency domain signal of the body/body angular velocity jerk signal magnitude
 | angletBodyAccMeangravity			| 82	| The angle between the mean time domain signal of the body linear acceleration and gravity signal
 | angletBodyAccJerkMeangravityMean	| 83	| The angle between the mean time domain signal of the body linear acceleration jerk signal and mean gravity acceleration signal
-| angletBodyGyroMeangravityMean		| 84	The angle between the mean time domain signal of the body angular velocity and mean gravity acceleration signal
+| angletBodyGyroMeangravityMean		| 84	| The angle between the mean time domain signal of the body angular velocity and mean gravity acceleration signal
 | angletBodyGyroJerkMeangravityMean	| 85	| The angle between the mean time domain signal of the body angular velocity jerk signal and the mean gravity signal
 | angleXgravityMean					| 86	| The angle between the X-direction vector and mean gravity acceleration
 | angleYgravityMean					| 87	| The angle between the Y-direction vector and mean gravity acceleration
