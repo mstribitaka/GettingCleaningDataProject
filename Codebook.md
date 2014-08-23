@@ -69,16 +69,14 @@ information on that script.
 
 ### Description of Variables in TidyData2.txt
 
-(Please note that I tried, I *really* tried, to get this into a table format but it would not work.)
 
 | Variable       	| Column Position  | 	Variable Description
 |---------------------|----------------------|------------------------
-|Subject  | 1		 | Subject (person) ID (between 1-30) |
-
-<P>| Activity							| 2		| Describes what activity the subject was performing when data was taken
-| tBodyAccmeanX					| 3		| The mean in the X-direction of the time domain signal of the body linear acceleration
-| tBodyAccmeanY					| 4		| The mean in the Y-direction of the time domain signal of the body linear acceleration 
-| tBodyAccmeanZ					| 5		| The mean in the Z-direction of the time domain signal of the body linear acceleration 
+|Subject  | 1 | Subject (person) ID (between 1-30) |
+| Activity| 2 | Describes what activity the subject was performing when data was taken
+| tBodyAccmeanX	| 3 | The mean in the X-direction of the time domain signal of the body linear acceleration
+| tBodyAccmeanY	| 4| The mean in the Y-direction of the time domain signal of the body linear acceleration 
+| tBodyAccmeanZ	| 5| The mean in the Z-direction of the time domain signal of the body linear acceleration 
 | tBodyAccstdX						| 6		| The standard deviation in the X-direction of the time domain signal of the body linear acceleration 
 | tBodyAccstdY						| 7		| The standard deviation in the Y-direction of the time domain signal of the body linear acceleration 
 | tBodyAccstdZ						| 8		| The standard deviation in the Z-direction of the time domain signal of the body linear acceleration 
