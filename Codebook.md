@@ -69,8 +69,8 @@ information on that script.
 
 ### Description of Variables in TidyData2.txt
 
-| Variable       	| Column   	| Variable       |
-<P>			| Position		| Description  |
+| Variable | Column | Variable|
+|       	 | Position		| Description  |
 |:--------------------|:-------------------:|:-------------------
 <P>| Subject							| 1		| Subject (person) ID (between 1-30) |
 
