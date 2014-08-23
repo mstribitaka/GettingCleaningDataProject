@@ -71,9 +71,9 @@ information on that script.
 
 (Please note that I tried, I *really* tried, to get this into a table format but it would not work.)
 
-Variable       	Column Position  	Variable Description
-
-Subject                                                            1		 Subject (person) ID (between 1-30) |
+| Variable       	| Column Position  | 	Variable Description
+|---------------------|----------------------|------------------------
+|Subject  | 1		 | Subject (person) ID (between 1-30) |
 
 <P>| Activity							| 2		| Describes what activity the subject was performing when data was taken
 | tBodyAccmeanX					| 3		| The mean in the X-direction of the time domain signal of the body linear acceleration
