@@ -71,99 +71,93 @@ information on that script.
 
 | Variable       	| Column   	| Variable       |
 			| Position		| Description  |
-|--------------------|:-------------------|:-------------------
-|Subject							| 1		| Subject (person) ID (between 1-30) |
+|:--------------------|:-------------------:|:-------------------
+| Subject							| 1		| Subject (person) ID (between 1-30) |
 
-Activity							2		Describes what activity the subject was performing when data was taken
-tBodyAccmeanX					3		The mean in the X-direction of the time domain signal of the body linear acceleration
-tBodyAccmeanY					4		The mean in the Y-direction of the time domain signal of the body linear acceleration 
-tBodyAccmeanZ					5		The mean in the Z-direction of the time domain signal of the body linear acceleration 
-tBodyAccstdX						6		The standard deviation in the X-direction of the time domain signal of the body linear acceleration 
-tBodyAccstdY						7		The standard deviation in the Y-direction of the time domain signal of the body linear acceleration 
-tBodyAccstdZ						8		The standard deviation in the Z-direction of the time domain signal of the body linear acceleration 
-tGravityAccmeanX					9		The mean in the X-direction of the time domain signal of the gravity acceleration 
-tGravityAccmeanY					10		The mean in the Y-direction of the time domain signal of the gravity acceleration 
-tGravityAccmeanZ					11		The mean in the Z-direction of the time domain signal of the gravity acceleration 
-tGravityAccstdX					12		The standard deviation in the X-direction of the time domain signal of the gravity acceleration 
-tGravityAccstdY					13		The standard deviation in the Y-direction of the time domain signal of the gravity acceleration 
-tGravityAccstdZ						14		The standard deviation in the Z-direction of the time domain signal of the gravity acceleration 
-tBodyAccJerkmeanX				15		The mean in the X-direction of the time domain signal of the body linear acceleration jerk signal 
-tBodyAccJerkmeanY"				16		The mean in the Y-direction of the time domain signal of the body linear acceleration jerk signal 
-tBodyAccJerkmeanZ					17		The mean in the Z-direction of the time domain signal of the body linear acceleration jerk signal 
-tBodyAccJerkstdX					18		The standard deviation in the X-direction of the time domain signal of the body linear acceleration jerk signal 
-tBodyAccJerkstdY					19		The standard deviation in the Y-direction of the time domain signal of the body linear acceleration jerk signal 
-tBodyAccJerkstdZ					20		The standard deviation in the Z-direction of the time domain signal of the body linear acceleration jerk signal 
-tBodyGyromeanX					21		The mean in the X-direction of the time domain signal of the body angular velocity 
-tBodyGyromeanY					22		The mean in the Y-direction of the time domain signal of the body angular velocity 
-tBodyGyromeanZ					23		The mean in the Z-direction of the time domain signal of the body angular velocity 
-tBodyGyrostdX						24		The standard deviation in the X-direction of the time domain signal of the body angular velocity 
-tBodyGyrostdY						25		The standard deviation in the Y-direction of the time domain signal of the body angular velocity 
-tBodyGyrostdZ						26		The standard deviation in the Z-direction of the time domain signal of the body angular velocity 
-tBodyGyroJerkmeanX				27	The mean in the X-direction of the time domain signal of the body angular velocity jerk signal 
-tBodyGyroJerkmeanY				28	The mean in the Y-direction of the time domain signal of the body angular velocity jerk signal 
-tBodyGyroJerkmeanZ				29	The mean in the Z-direction of the time domain signal of the body angular velocity jerk signal 
-tBodyGyroJerkstdX					30	The standard deviation in the X-direction of the time domain signal of the body angular velocity jerk signal 
-tBodyGyroJerkstdY					31	The standard deviation in the Y-direction of the time domain signal of the body angular velocity jerk signal 
-tBodyGyroJerkstdZ					32	The standard deviation in the Z-direction of the time domain signal of the body angular velocity jerk signal 
-tBodyAccMagmean					33	The mean of the time domain signal of the body linear acceleration magnitude
-tBodyAccMagstd					34	The standard deviation of the time domain signal of the body linear acceleration magnitude
-tGravityAccMagmean				35	The mean of the time domain signal of the gravity acceleration magnitude
-tGravityAccMagstd					36	The standard deviation of the time domain signal of the gravity acceleration magnitude
-tBodyAccJerkMagmean				37	The mean of the time domain signal of the body linear acceleration jerk signal magnitude
-tBodyAccJerkMagstd				38	The standard deviation of the time domain signal of the body linear acceleration jerk signal magnitude
-tBodyGyroMagmean					39	The mean of the time domain signal of the body angular velocity magnitude
-tBodyGyroMagstd					40	The standard deviation of the time domain signal of the body angular velocity magnitude
-tBodyGyroJerkMagmean				41	The mean of the time domain signal of the body angular velocity jerk signal magnitude
-tBodyGyroJerkMagstd				42	The standard deviation of the time domain signal of the body angular velocity jerk signal magnitude
-fBodyAccmeanX					43	The mean in the X-direction of the frequency domain signal of the body linear acceleration 
-fBodyAccmeanY					44	The mean in the Y-direction of the frequency domain signal of the body linear acceleration 
-fBodyAccmeanZ					45	The mean in the Z-direction of the frequency domain signal of the body linear acceleration 
-fBodyAccstdX						46	The standard deviation in the X-direction of the frequency domain signal of the body linear acceleration 
-fBodyAccstdY						47	The standard deviation in the Y-direction of the frequency domain signal of the body linear acceleration 
-fBodyAccstdZ						48	The standard deviation in the Z-direction of the frequency domain signal of the body linear acceleration 
-fBodyAccmeanFreqX				49	The mean frequency in the X-direction of the frequency domain signal of the body linear acceleration 
-fBodyAccmeanFreqY				50	The mean frequency in the Y-direction of the frequency domain signal of the body linear acceleration 
-fBodyAccmeanFreqZ				51	The mean frequency in the Z-direction of the frequency domain signal of the body linear acceleration 
-fBodyAccJerkmeanX				52	The mean in the X-direction of the frequency domain signal of the body linear acceleration jerk signal 
-fBodyAccJerkmeanY				53	The mean in the Y-direction of the frequency domain signal of the body linear acceleration jerk signal 
-fBodyAccJerkmeanZ					54	The mean in the Z-direction of the frequency domain signal of the body linear acceleration jerk signal 
-fBodyAccJerkstdX					55	The standard deviation in the X-direction of the frequency domain signal of the body linear acceleration jerk signal 
-fBodyAccJerkstdY					56	The standard deviation in the Y-direction of the frequency domain signal of the body linear acceleration jerk signal 
-fBodyAccJerkstdZ					57	The standard deviation in the Z-direction of the frequency domain signal of the body linear acceleration jerk signal 
-fBodyAccJerkmeanFreqX				58	The mean frequency in the X-direction of the frequency domain signal of the body linear acceleration jerk signal 
-fBodyAccJerkmeanFreqY				59	The mean frequency in the Y-direction of the frequency domain signal of the body linear acceleration jerk signal 
-fBodyAccJerkmeanFreqZ				60	The mean frequency in the Z-direction of the frequency domain signal of the body linear acceleration jerk signal 
-fBodyGyromeanX					61	The mean in the X-direction of the frequency domain signal of the body angular velocity 
-fBodyGyromeanY					62	The mean in the Y-direction of the frequency domain signal of the body angular velocity 
-fBodyGyromeanZ					63	The mean in the Z-direction of the frequency domain signal of the body angular velocity 
-fBodyGyrostdX						64	The standard deviation in the X-direction of the frequency domain signal of the body angular velocity 
-fBodyGyrostdY						65	The standard deviation in the Y-direction of the frequency domain signal of the body angular velocity 
-fBodyGyrostdZ						66	The standard deviation in the Z-direction of the frequency domain signal of the body angular velocity 
-fBodyGyromeanFreqX				67	The mean frequency in the X-direction of the frequency domain signal of the body angular velocity 
-fBodyGyromeanFreqY				68	The mean frequency in the Y-direction of the frequency domain signal of the body angular velocity 
-fBodyGyromeanFreqZ				69	The mean frequency in the Z-direction of the frequency domain signal of the body angular velocity 
-fBodyAccMagmean					70	The mean of the frequency domain signal of the body linear acceleration magnitude
-fBodyAccMagstd					71	The standard deviation of the frequency domain signal of the body linear acceleration magnitude
-fBodyAccMagmeanFreq				72	The mean frequency of the frequency domain signal of the body linear acceleration magnitude
-fBodyBodyAccJerkMagmean			73	The mean of the frequency domain signal of the body/body linear acceleration jerk signal magnitude (is BodyBody a typo? 
-									It was not explained in the features_info.txt file.  Ditto for those below.) 
-fBodyBodyAccJerkMagstd			74	The standard deviation of the frequency domain signal of the body/body linear acceleration jerk signal magnitude
-fBodyBodyAccJerkMagmeanFreq		75	The mean frequency of the frequency domain signal of the body/body linear acceleration jerk signal magnitude
-fBodyBodyGyroMagmean				76	The mean of the frequency domain signal of the body/body angular velocity magnitude
-fBodyBodyGyroMagstd 				77	The standard deviation of the frequency domain signal of the body/body angular velocity magnitude
-fBodyBodyGyroMagmeanFreq			78	The mean frequency of the frequency domain signal of the body/body angular velocity magnitude
-fBodyBodyGyroJerkMagmean			79	The mean of the frequency domain signal of the body/body angular velocity jerk signal magnitude
-fBodyBodyGyroJerkMagstd			80	The standard deviation of the frequency domain signal of the body/body angular 
-										velocity jerk signal magnitude
-fBodyBodyGyroJerkMagmeanFreq		81	The mean frequency of the frequency domain signal of the body/body angular 
-										velocity jerk signal magnitude
-angletBodyAccMeangravity			82	The angle between the mean time domain signal of the body linear acceleration and 
-										gravity signal
-angletBodyAccJerkMeangravityMean	83	The angle between the mean time domain signal of the body linear acceleration jerk signal and mean gravity acceleration signal
-angletBodyGyroMeangravityMean		84	The angle between the mean time domain signal of the body angular velocity and 
-										mean gravity acceleration signal
-angletBodyGyroJerkMeangravityMean	85	The angle between the mean time domain signal of the body angular velocity jerk signal 
-										and the mean gravity signal
-angleXgravityMean					86	The angle between the X-direction vector and mean gravity acceleration
-angleYgravityMean					87	The angle between the Y-direction vector and mean gravity acceleration
-angleZgravityMean					88	The angle between the Z-direction vector and mean gravity acceleration
+| Activity							| 2		| Describes what activity the subject was performing when data was taken
+| tBodyAccmeanX					| 3		| The mean in the X-direction of the time domain signal of the body linear acceleration
+| tBodyAccmeanY					| 4		| The mean in the Y-direction of the time domain signal of the body linear acceleration 
+| tBodyAccmeanZ					| 5		| The mean in the Z-direction of the time domain signal of the body linear acceleration 
+| tBodyAccstdX						| 6		| The standard deviation in the X-direction of the time domain signal of the body linear acceleration 
+| tBodyAccstdY						| 7		| The standard deviation in the Y-direction of the time domain signal of the body linear acceleration 
+| tBodyAccstdZ						| 8		| The standard deviation in the Z-direction of the time domain signal of the body linear acceleration 
+| tGravityAccmeanX					| 9		| The mean in the X-direction of the time domain signal of the gravity acceleration 
+| tGravityAccmeanY					| 10		| The mean in the Y-direction of the time domain signal of the gravity acceleration 
+| tGravityAccmeanZ					| 11		| The mean in the Z-direction of the time domain signal of the gravity acceleration 
+| tGravityAccstdX					| 12		| The standard deviation in the X-direction of the time domain signal of the gravity acceleration 
+| tGravityAccstdY					| 13		| The standard deviation in the Y-direction of the time domain signal of the gravity acceleration 
+| tGravityAccstdZ					| 14		| The standard deviation in the Z-direction of the time domain signal of the gravity acceleration 
+| tBodyAccJerkmeanX				| 15		| The mean in the X-direction of the time domain signal of the body linear acceleration jerk signal 
+| tBodyAccJerkmeanY"				| 16		| The mean in the Y-direction of the time domain signal of the body linear acceleration jerk signal 
+| tBodyAccJerkmeanZ				| 17		| The mean in the Z-direction of the time domain signal of the body linear acceleration jerk signal 
+| tBodyAccJerkstdX					| 18		| The standard deviation in the X-direction of the time domain signal of the body linear acceleration jerk signal 
+| tBodyAccJerkstdY					| 19		| The standard deviation in the Y-direction of the time domain signal of the body linear acceleration jerk signal 
+| tBodyAccJerkstdZ					| 20		| The standard deviation in the Z-direction of the time domain signal of the body linear acceleration jerk signal 
+| tBodyGyromeanX					| 21		| The mean in the X-direction of the time domain signal of the body angular velocity 
+| tBodyGyromeanY					| 22		| The mean in the Y-direction of the time domain signal of the body angular velocity 
+| tBodyGyromeanZ					| 23		| The mean in the Z-direction of the time domain signal of the body angular velocity 
+| tBodyGyrostdX					| 24		| The standard deviation in the X-direction of the time domain signal of the body angular velocity 
+| tBodyGyrostdY					| 25		| The standard deviation in the Y-direction of the time domain signal of the body angular velocity 
+| tBodyGyrostdZ					| 26		| The standard deviation in the Z-direction of the time domain signal of the body angular velocity 
+| tBodyGyroJerkmeanX				| 27	| The mean in the X-direction of the time domain signal of the body angular velocity jerk signal 
+| tBodyGyroJerkmeanY				| 28	| The mean in the Y-direction of the time domain signal of the body angular velocity jerk signal 
+| tBodyGyroJerkmeanZ				| 29	| The mean in the Z-direction of the time domain signal of the body angular velocity jerk signal 
+| tBodyGyroJerkstdX					| 30	| The standard deviation in the X-direction of the time domain signal of the body angular velocity jerk signal 
+| tBodyGyroJerkstdY					| 31	| The standard deviation in the Y-direction of the time domain signal of the body angular velocity jerk signal 
+| tBodyGyroJerkstdZ					| 32	| The standard deviation in the Z-direction of the time domain signal of the body angular velocity jerk signal 
+| tBodyAccMagmean					| 33	| The mean of the time domain signal of the body linear acceleration magnitude
+| tBodyAccMagstd					| 34	| The standard deviation of the time domain signal of the body linear acceleration magnitude
+| tGravityAccMagmean				| 35	| The mean of the time domain signal of the gravity acceleration magnitude
+| tGravityAccMagstd					| 36	| The standard deviation of the time domain signal of the gravity acceleration magnitude
+| tBodyAccJerkMagmean				| 37	| The mean of the time domain signal of the body linear acceleration jerk signal magnitude
+| tBodyAccJerkMagstd				| 38	| The standard deviation of the time domain signal of the body linear acceleration jerk signal magnitude
+| tBodyGyroMagmean				| 39	| The mean of the time domain signal of the body angular velocity magnitude
+| tBodyGyroMagstd					| 40	| The standard deviation of the time domain signal of the body angular velocity magnitude
+| tBodyGyroJerkMagmean			| 41	| The mean of the time domain signal of the body angular velocity jerk signal magnitude
+| tBodyGyroJerkMagstd				| 42	| The standard deviation of the time domain signal of the body angular velocity jerk signal magnitude
+| fBodyAccmeanX					| 43	| The mean in the X-direction of the frequency domain signal of the body linear acceleration 
+| fBodyAccmeanY					| 44	| The mean in the Y-direction of the frequency domain signal of the body linear acceleration 
+| fBodyAccmeanZ					| 45	| The mean in the Z-direction of the frequency domain signal of the body linear acceleration 
+| fBodyAccstdX						| 46	| The standard deviation in the X-direction of the frequency domain signal of the body linear acceleration 
+| fBodyAccstdY						| 47	| The standard deviation in the Y-direction of the frequency domain signal of the body linear acceleration 
+| fBodyAccstdZ						| 48	| The standard deviation in the Z-direction of the frequency domain signal of the body linear acceleration 
+| fBodyAccmeanFreqX				| 49	| The mean frequency in the X-direction of the frequency domain signal of the body linear acceleration 
+| fBodyAccmeanFreqY				| 50	| The mean frequency in the Y-direction of the frequency domain signal of the body linear acceleration 
+| fBodyAccmeanFreqZ				| 51	| The mean frequency in the Z-direction of the frequency domain signal of the body linear acceleration 
+| fBodyAccJerkmeanX				| 52	| The mean in the X-direction of the frequency domain signal of the body linear acceleration jerk signal 
+| fBodyAccJerkmeanY				| 53	| The mean in the Y-direction of the frequency domain signal of the body linear acceleration jerk signal 
+| fBodyAccJerkmeanZ				| 54	| The mean in the Z-direction of the frequency domain signal of the body linear acceleration jerk signal 
+| fBodyAccJerkstdX					| 55	| The standard deviation in the X-direction of the frequency domain signal of the body linear acceleration jerk signal 
+| fBodyAccJerkstdY					| 56	| The standard deviation in the Y-direction of the frequency domain signal of the body linear acceleration jerk signal 
+| fBodyAccJerkstdZ					| 57	| The standard deviation in the Z-direction of the frequency domain signal of the body linear acceleration jerk signal 
+| fBodyAccJerkmeanFreqX			| 58	| The mean frequency in the X-direction of the frequency domain signal of the body linear acceleration jerk signal 
+| fBodyAccJerkmeanFreqY			| 59	| The mean frequency in the Y-direction of the frequency domain signal of the body linear acceleration jerk signal 
+| fBodyAccJerkmeanFreqZ			| 60	| The mean frequency in the Z-direction of the frequency domain signal of the body linear acceleration jerk signal 
+| fBodyGyromeanX					| 61	| The mean in the X-direction of the frequency domain signal of the body angular velocity 
+| fBodyGyromeanY					| 62	| The mean in the Y-direction of the frequency domain signal of the body angular velocity 
+| fBodyGyromeanZ					| 63	| The mean in the Z-direction of the frequency domain signal of the body angular velocity 
+| fBodyGyrostdX					| 64	| The standard deviation in the X-direction of the frequency domain signal of the body angular velocity 
+| fBodyGyrostdY					| 65	| The standard deviation in the Y-direction of the frequency domain signal of the body angular velocity 
+| fBodyGyrostdZ					| 66	| The standard deviation in the Z-direction of the frequency domain signal of the body angular velocity 
+| fBodyGyromeanFreqX				| 67	| The mean frequency in the X-direction of the frequency domain signal of the body angular velocity 
+| fBodyGyromeanFreqY				| 68	| The mean frequency in the Y-direction of the frequency domain signal of the body angular velocity 
+| fBodyGyromeanFreqZ				| 69	| The mean frequency in the Z-direction of the frequency domain signal of the body angular velocity 
+| fBodyAccMagmean					| 70	| The mean of the frequency domain signal of the body linear acceleration magnitude
+| fBodyAccMagstd					| 71	| The standard deviation of the frequency domain signal of the body linear acceleration magnitude
+| fBodyAccMagmeanFreq				| 72	| The mean frequency of the frequency domain signal of the body linear acceleration magnitude
+| fBodyBodyAccJerkMagmean			| 73	| The mean of the frequency domain signal of the body/body linear acceleration jerk signal magnitude (is BodyBody a typo? It was not explained in the features_info.txt file.  Ditto for those below.) 
+| fBodyBodyAccJerkMagstd			| 74	| The standard deviation of the frequency domain signal of the body/body linear acceleration jerk signal magnitude
+| fBodyBodyAccJerkMagmeanFreq		| 75	| The mean frequency of the frequency domain signal of the body/body linear acceleration jerk signal magnitude
+| fBodyBodyGyroMagmean			| 76	| The mean of the frequency domain signal of the body/body angular velocity magnitude
+| fBodyBodyGyroMagstd 				| 77	| The standard deviation of the frequency domain signal of the body/body angular velocity magnitude
+| fBodyBodyGyroMagmeanFreq		| 78	| The mean frequency of the frequency domain signal of the body/body angular velocity magnitude
+| fBodyBodyGyroJerkMagmean		| 79	| The mean of the frequency domain signal of the body/body angular velocity jerk signal magnitude
+| fBodyBodyGyroJerkMagstd			| 80	| The standard deviation of the frequency domain signal of the body/body angular velocity jerk signal magnitude
+| fBodyBodyGyroJerkMagmeanFreq		| 81	| The mean frequency of the frequency domain signal of the body/body angular velocity jerk signal magnitude
+| angletBodyAccMeangravity			| 82	| The angle between the mean time domain signal of the body linear acceleration and gravity signal
+| angletBodyAccJerkMeangravityMean	| 83	| The angle between the mean time domain signal of the body linear acceleration jerk signal and mean gravity acceleration signal
+| angletBodyGyroMeangravityMean		| 84	The angle between the mean time domain signal of the body angular velocity and mean gravity acceleration signal
+| angletBodyGyroJerkMeangravityMean	| 85	| The angle between the mean time domain signal of the body angular velocity jerk signal and the mean gravity signal
+| angleXgravityMean					| 86	| The angle between the X-direction vector and mean gravity acceleration
+| angleYgravityMean					| 87	| The angle between the Y-direction vector and mean gravity acceleration
+| angleZgravityMean					| 88	| The angle between the Z-direction vector and mean gravity acceleration
