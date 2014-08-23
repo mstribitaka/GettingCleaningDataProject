@@ -69,10 +69,9 @@ information on that script.
 
 ### Description of Variables in TidyData2.txt
 
-| Variable       	| Column   	| Variable       |
-<P>			| Position		| Description  |
-|:--------------------|:-------------------:|:-------------------
-<P>| Subject							| 1		| Subject (person) ID (between 1-30) |
+Variable       	Column Position                   Variable Description
+
+Subject		1		     Subject ID (between 1-30)
 
 <P>| Activity							| 2		| Describes what activity the subject was performing when data was taken
 | tBodyAccmeanX					| 3		| The mean in the X-direction of the time domain signal of the body linear acceleration
