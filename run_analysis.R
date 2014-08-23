@@ -22,7 +22,7 @@ mergedAll[,2] <- factor(mergedAll[,2], labels=activitiesNames)
 
 # Load column names into a vector from features.txt file
 cnames <- read.table('features.txt', header = FALSE)
-newcnames <- c("Subject", "Activity", as.character(cnames[,"V2"]))
+newcnames <- c("Subject", "Activity", gsub("-|\\.|\\()","",as.character(cnames[,"V2"])))
 colnames(mergedAll) <- newcnames
 
 # Keep only columns with 'mean' or 'std' in column name, as well as 'Subject', 
