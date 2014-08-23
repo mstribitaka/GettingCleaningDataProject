@@ -70,11 +70,11 @@ information on that script.
 ### Description of Variables in TidyData2.txt
 
 | Variable       	| Column   	| Variable       |
-			| Position		| Description  |
+<P>			| Position		| Description  |
 |:--------------------|:-------------------:|:-------------------
-| Subject							| 1		| Subject (person) ID (between 1-30) |
+<P>| Subject							| 1		| Subject (person) ID (between 1-30) |
 
-| Activity							| 2		| Describes what activity the subject was performing when data was taken
+<P>| Activity							| 2		| Describes what activity the subject was performing when data was taken
 | tBodyAccmeanX					| 3		| The mean in the X-direction of the time domain signal of the body linear acceleration
 | tBodyAccmeanY					| 4		| The mean in the Y-direction of the time domain signal of the body linear acceleration 
 | tBodyAccmeanZ					| 5		| The mean in the Z-direction of the time domain signal of the body linear acceleration 
